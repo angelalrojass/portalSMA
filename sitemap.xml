@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://www.sanmateoatenco.gob.mx/index.html</loc>
+    <lastmod>2019-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/logo28.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/faceroj.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/youtuberojo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/twitterojo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/membreteof.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/12.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.sanmateoatenco.gob.mx/images/register1.png</image:loc>
+    </image:image>
+  </url>
+</urlset>

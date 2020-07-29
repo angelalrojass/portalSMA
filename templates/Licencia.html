@@ -1,0 +1,139 @@
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="font-size:8px">
+            <tr> 
+                <td width="700" align="center" valign="middle">
+                    <table width="700" border="0" align="left" cellpadding="0" cellspacing="0">
+                       <tr>
+                            <td width="250" align="center">&nbsp;</td>
+
+                            <td width="450" style="text-align:center; border-top:1px solid #504f4f; border-bottom:1px solid #504f4f;"><table width="450" align="right" cellpadding="0" cellspacing="5">
+                              <tr>
+                                <td width="200" height="10" align="right">No. LICENCIA</td>
+                                <td width="235" align="right" style="font-size:12px;"><strong>'.$Folio.'</strong></td>
+                              </tr>
+                              <tr>
+                                <td width="200" height="10" align="right">FECHA DE EXPEDICIÓN</td>
+                                <td width="235" align="right" style="font-size:10px;"><strong>'.actual_date ().'</strong></td>
+                              </tr>
+                              <tr>
+                                <td width="200" height="10"  align="right">VIGENCIA</td>
+                                <td width="235"  align="right" style="font-size:10px;"><strong>'.vigencia_date ().'</strong></td>
+                              </tr>
+                              <tr>
+                                <td width="200" height="10"  align="right">NOMBRE TITULAR</td>
+                                <td width="235"  align="right" style="font-size:10px;"><strong>'.strtoupper($Titular).'</strong></td>
+                              </tr>
+                              <tr>
+                                <td width="200" height="10"  align="right">RFC</td>
+                                <td width="235"  align="right" style="font-size:10px;"><strong>'.strtoupper($Rfc).'</strong></td>
+                              </tr>
+                            </table></td>
+                      </tr>
+					  	
+                        
+                        <tr> 
+                            <td colspan="2" align="center" style="text-align:center; font-size:8px;"><table width="700" border="0" cellspacing="3" cellpadding="5">
+                              <tbody>
+                                <tr>
+                                  <td colspan="4" align="center" style="text-align:center; font-size:10px;">DATOS DEL ESTABLECIMIENTO</td>
+                                </tr>
+                                <tr>
+                                  <td width="504" colspan="3" align="center" style="text-align:center; font-size:8px;">NOMBRE DEL APODERADO LEGAL (PERSONA LEGAL COLECTIVA)</td>
+                                  <td width="170" align="center" style="text-align:center; font-size:8px;">INICIO DE OPERACIONES</td>
+                                </tr>
+                                <tr>
+                                  <td width="504" colspan="3" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.strtoupper($apoderado).'</strong></td>
+                                  <td width="170" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.actual_date ().'</strong></td>
+                                </tr>
+                                <tr>
+                                  <td width="504" colspan="3" style="text-align:center; font-size:8px;">CLAVE Y NOMBRE DEL GIRO ECONÓMICO</td>
+                                  <td width="170" style="text-align:center; font-size:8px;">SUPERFICIE AUTORIZADA M2</td>
+                                </tr>
+                                <tr>
+                                  <td width="504" colspan="3" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$Scian.' | '.strtoupper($DescGiroCom).'</strong></td>
+                                  <td width="170" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$SupMts.'</strong></td>
+                                </tr>
+                                <tr>
+                               
+                                
+                                  <td width="504" colspan="2" style="text-align:center; font-size:8px;">CALLE</td>
+                                  <td width="336" colspan="2" style="text-align:center; font-size:8px;">COLONIA</td>
+                                </tr>
+                                <tr>
+                                  <td width="504" colspan="2" style="text-align: center; border-top: 1px solid #222222; border-bottom: 1px solid #222222; border-left: 1px solid #222222; border-right: 1px solid #222222; font-size: 10px;"><strong><strong>'.strtoupper($Calle).' '.$NumExt.' '.$NumInt.'</strong></strong></td>
+                                  <td width="336" colspan="2" style="text-align: center; border-top: 1px solid #222222; border-bottom: 1px solid #222222; border-left: 1px solid #222222; border-right: 1px solid #222222; font-size: 10px;"><strong>'.strtoupper($Colonia).'</strong></td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2" style="text-align:center; font-size:8px;">ENTRE CALLE</td>
+                                  <td colspan="2" style="text-align:center; font-size:8px;">Y CALLE</td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.strtoupper($EntreCalles).'</strong></td>
+                                  <td colspan="2" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.strtoupper($YCalle).'</strong></td>
+                                </tr>
+                                <tr>
+                                  <td width="504" style="text-align:center; font-size:8px;">CÓDIGO POSTAL</td>
+                                  <td width="168" style="text-align:center; font-size:8px;">TELÉFONO</td>
+                                  <td width="336" style="text-align:center; font-size:8px;">CORREO ELECTRÓNICO</td>
+                                  <td width="170" style="text-align:center; font-size:8px;">CLAVE CATASTRAL</td>
+                                </tr>
+                                <tr>
+                                  <td width="504" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$CodPostal.'</strong></td>
+                                  <td width="168" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$TelNego.'</strong></td>
+                                  <td width="336" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$Email.'</strong></td>
+                                  <td width="170" style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$CveCat.'</strong></td>
+                                </tr>
+                                <tr>
+                                  <td style="text-align:center; font-size:8px;">CAJONES ESTACIONAMIENTO</td>
+                                  <td style="text-align:center; font-size:8px;">TIPO DE MOVIMIENTO</td>
+                                  <td height="8" colspan="2" style="text-align:center; font-size:8px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$CajEsta.'</strong></td>
+                                  <td style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$movimientoReal.'</strong></td>
+                                  <td colspan="2" style="text-align:center; font-size:10px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td colspan="4" style="text-align:center;"><span style="text-align:center; font-size:10px;">ANUNCIO PUBLICITARIO</span></td>
+                                </tr>
+                                <tr>
+                                  <td style="text-align:center; font-size:8px;">CANTIDAD</td>
+                                  <td style="text-align:center; font-size:8px;">TIPO</td>
+                                  <td style="text-align:center; font-size:8px;">LEYENDA</td>
+                                  <td style="text-align:center; font-size:8px;">DIMENSIONES</td>
+                                </tr>
+                                <tr>
+                                  <td style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$anuncios.'</strong></td>
+                                  <td style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$tipoAnuncio.'</strong></td>
+                                  <td style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$leyenda.'</strong></td>
+                                  <td style="text-align:center; border-top:1px solid #222222; border-bottom:1px solid #222222; border-left:1px solid #222222; border-right:1px solid #222222;  font-size:10px;"><strong>'.$dimAnuncio.'</strong></td>
+                                </tr>
+                                <tr>
+                                  <td colspan="4" style="text-align:center;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td colspan="4" style="text-align:center; font-size:10px"><p>AUTORIZÓ<br>
+                                  <br>
+                                  <br>
+                                  <strong>LIC. IMELDA ARIZMENDI CASTAÑEDA</strong><br>
+                                  <span style="font-size:8px">DIRECCIÓN DE DESARROLLO ECONÓMICO Y FOMENTO TURÍSTICO</span>
+                                  </p></td>
+                                </tr>
+                                <tr>
+                                  <td height="10" colspan="4" style="text-align:center;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td width="260" height="140" style="text-align:left; font-size:8px;"><tcpdf method="write2DBarcode" params="'.$params.'" /></td>
+                                  <td height="140" colspan="3" style="text-align:left; font-size:8px;"><strong>1.- Cualquier contraversión al Bando Municipal vigente, implica la cancelación de la presente licencia<br><br>
+                                    2.- Esta autoridad esta facultada para revocar la presente ya que fué otorgada por primera vez, asi como a que el establecimiento no tenga multas, recargos y faltas administrativas y en su caso no presente el aviso de salubridad correspondiente.<br><br>
+                                  3.- Manifiesto bajo protesta de decir la verdad que los datos asentados en el presente son reales y fidedignos, sujetandomen a las sanciones previstas por la ley en caso de falsedad.</strong></td>
+                                </tr>
+								<tr>
+                                  <td colspan="4" style="text-align:center; font-size:8px;">CADENA ORIGINAL: '.$cadenaOriginal.'</td>
+                                </tr>
+                              </tbody>
+                            </table></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </table>

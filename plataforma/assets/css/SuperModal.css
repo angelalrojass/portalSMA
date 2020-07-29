@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*SuperModal*/
+#splash{top: 0px;
+left: 0px;
+position: absolute;
+opacity:0.9;
+background: black;
+display:none;
+z-index:9999;}
+
+#modal_box{position:absolute;width:600px; height:400px;  display:block; z-index:99999; display:none; padding:15px;}
+.generate_txt{color: #ffffff;
+top: 30%;
+position: absolute;
+left: 50%;
+width: 400px;
+margin-left: -200px;
+font-size: 36px;
+}
+.loader{position: absolute;
+display: block;
+width: 400px;
+height: 15px;
+top: 55%;
+left: 50%;
+margin-left: -200px;}
+
+#modal_box h2{margin:0 0 10px 0; padding:0; color:#900; font-size:18px;}
+#modal_box span{font-size:12px; color:#666;}
+#modal_box span.error{color:#900;}
